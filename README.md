@@ -12,7 +12,7 @@ Each sub folder has a `README.md` file with additional information about the tas
 * Register your account on github.com if you don't have one
 * Sign in your account on github.com
 * Go to https://github.com/tonywgh/havesomefun in the same browser
-* Click "Fork" button at the top right corner on the page
+* Click "Fork" button at top-right corner on the page
 * Then you can clone the project on you local computer
 * Work on the project
 * Push your work back to github
