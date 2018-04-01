@@ -29,17 +29,19 @@ class Game():
             self.checkRematch()
 
     def checkRematch(self):
-        rematch = input("wanna Rematch? (y/n) ")
+        rematch = str(input('Wanna Rematch? (y/n) ')).lower()
+        while not(self.validateInput(rematch)):
+            print('Invalid Input!')
+            rematch = str(input('Wanna Rematch? (y/n) ')).lower()
 
-        if self.validateInput(rematch):
+        if rematch == 'y' :
             print('Lets go!')
             self.initGame()
         else:
             print('GoodBye!')
 
     def validateInput(self, userInput):
-        check = str(userInput).lower()
-        if (check == 'y'):
+        if (userInput == 'y') or (userInput == 'n'):
             return True
         else:
             return False
