@@ -1,6 +1,6 @@
 from random import randint
 
-class ComputerPlayer():
+class ComputerPlayer:
     outputDict = {0 : 'r', 1 : 'p', 2 : 's'}
 
     def generateInput(self):

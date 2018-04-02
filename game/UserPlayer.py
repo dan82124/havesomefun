@@ -1,4 +1,4 @@
-class UserPlayer():
+class UserPlayer:
     playerInput = ''
 
     def askInput(self):

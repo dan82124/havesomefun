@@ -1,7 +1,7 @@
 from UserPlayer import UserPlayer
 from ComputerPlayer import ComputerPlayer
 
-class Game():
+class Game:
     player = ''
     aI = ''
     winDict = {'rs' : True, 'pr' : True, 'sp' : True, 'sr' : False, 'rp' : False, 'ps' : False}
