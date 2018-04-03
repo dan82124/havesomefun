@@ -52,9 +52,9 @@ def main():
 
   timeIndex = 0
   dataIndex = 1
-  print('Max Avg Output stream: %s' %str(parsedFile.maxPoint[dataIndex]), " at %s" %str(parsedFile.maxPoint[timeIndex]))
-  print('Min Avg Output stream: %s' %str(parsedFile.minPoint[dataIndex]), " at %s" %str(parsedFile.minPoint[timeIndex]))
-  print('Mid Avg Output stream: %s' %str(parsedFile.midPoint[dataIndex]), " at %s" %str(parsedFile.midPoint[timeIndex]))
+  print('Max Avg Streaming Rate: %s' %str(parsedFile.maxPoint[dataIndex]), "(Mpbs) at %s" %str(parsedFile.maxPoint[timeIndex]))
+  print('Min Avg Streaming Rate: %s' %str(parsedFile.minPoint[dataIndex]), "(Mpbs) at %s" %str(parsedFile.minPoint[timeIndex]))
+  print('Mid Avg Streaming Rate: %s' %str(parsedFile.midPoint[dataIndex]), "(Mpbs) at %s" %str(parsedFile.midPoint[timeIndex]))
    
 if __name__ == "__main__":
   main()
