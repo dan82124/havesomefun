@@ -9,11 +9,11 @@ import sys
 # Having a bit trouble implementing Test for reading print
 
 class TestGame(TestCase):
-    @mock.patch('sys.stdout', new_callable=StringIO)
-    def UserPlayer_main_op(self, tst_str, mock_stdout):
-        with mock.patch('builtins.input', side_effect=tst_str):
-            UserPlayer().askInput()
-        return mock_stdout.getvalue()
+    # @mock.patch('sys.stdout', new_callable=StringIO)
+    # def UserPlayer_main_op(self, tst_str, mock_stdout):
+    #     with mock.patch('builtins.input', side_effect=tst_str):
+    #         UserPlayer().askInput()
+    #     return mock_stdout.getvalue()
 
     def testValidUserInput(self):
         for s in ('s','p','r','S','P','R'):
